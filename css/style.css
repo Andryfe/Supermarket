@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+/*Intro (Páginas en general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant Upright", "Righteous";
+    }
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url(/img/Fondo.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+/*Index*/
+.contenedor-header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 100%;
+    background-color: transparent;
+    margin: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 8px 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #333;
+}
+.contenedor-header header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #ED7D31;
+    text-decoration: none;
+}
+.acces .login .btn {
+    max-width: 100%;
+    background-color: transparent;
+    margin: center;
+    justify-content:center;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 100%;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    color: #333;
+}
+.wrapper .btn:hover{
+    background-color: #8CB9BD;
+}
+.acces .customers .btn {
+    max-width: 100%;
+    background-color: transparent;
+    margin: center;
+    justify-content:center;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 100%;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    color: #333;
+}
+.wrapper .btn:hover{
+    background-color: #8CB9BD;
+}
+/*Login*/
+.wrapper {
+    width: 420px;
+    background: #F2EFE5;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 40px;
+    text-align: center;
+    color: #333;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    color: #333;
+}
+.wrapper .inputbox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    color: #333;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(180, 180, 184);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+}
+.inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(180, 180, 184);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #333;
+}
+.inputbox input::placeholder{
+    color: #333;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.inputbox i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+    
+}
+.remember-forgot label {
+    color: #333;
+    text-decoration: none;
+}
+.remember-forgot a {
+    color: #333;
+    text-decoration: none; 
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: .3s;
+}
+.wrapper .btn:hover{
+    background-color: #8CB9BD;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p  {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 20px 0 15px;
+}
+.register-link a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 20px 0 15px;
+}
+.register-link a:hover{
+    text-decoration: underline;
+}
+/*Customers*/   
+
+.container {
+    width: 420px;
+    background: #F2EFE5;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.container h2{
+    font-size: 40px;
+    text-align: center;
+    color: #333;
+}
+.container .form-group{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    color: #333;
+}
+.container .form-group label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.container .form-group input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(180, 180, 184);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+}
+.container .form-group input::placeholder{
+    color: #333;
+}
+.container .btn{
+    width: 100%;
+    height: 45px;
+    margin-top: 5%;
+    border: none;
+    outline: none;
+    background: #F2EFE5;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: .3s;
+}
+.container .btn:hover{
+    background-color: #8CB9BD;
+}
+
+
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
