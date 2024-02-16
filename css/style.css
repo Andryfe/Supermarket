@@ -14,7 +14,7 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background: url(/img/Fondo.jpg) no-repeat;
+        background: url(/img/Logo) no-repeat;
         background-size: cover;
         background-position: center;
     }
@@ -29,30 +29,21 @@
 .contenedor-header header{
     max-width: 100%;
     background-color: transparent;
-    margin: center;
     display: flex;
     justify-content:center;
     align-items: center;
     padding: 8px 10px;
-    border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #333;
-}
-.contenedor-header header .logo a{
-    font-family: 'Righteous';
-    font-size: 36px;
-    color: #ED7D31;
-    text-decoration: none;
+    color: #252A2E;
 }
 .acces .login .btn {
+    font-size: 300%; 
+    padding: 12px 20px; 
     max-width: 100%;
-    background-color: transparent;
-    margin: center;
+    background-color: #F0F3FF;
     justify-content:center;
     align-items: center;
     padding: 8px 10px;
-    border-radius: 100%;
+    border-radius: 30px;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
@@ -61,28 +52,12 @@
 }
 .wrapper .btn:hover{
     background-color: #8CB9BD;
-}
-.acces .customers .btn {
-    max-width: 100%;
-    background-color: transparent;
-    margin: center;
-    justify-content:center;
-    align-items: center;
-    padding: 8px 10px;
-    border-radius: 100%;
-    border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    cursor: pointer;
-    color: #333;
-}
-.wrapper .btn:hover{
-    background-color: #8CB9BD;
+    transition: background-color 1s ease-out;
 }
 /*Login*/
 .wrapper {
     width: 420px;
-    background: #F2EFE5;
+    background: transparent;
     border: 2px solid rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
@@ -112,10 +87,10 @@
 .input-box input{
     width: 100%;
     height: 100%;
-    background: transparent;
+    background: #F2EFE5;
     border: none;
     outline: none;
-    border: 1px solid rgb(180, 180, 184);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 40px;
     font-size: 16px;
     color: #000000;
@@ -124,20 +99,20 @@
 .inputbox input{
     width: 100%;
     height: 100%;
-    background: transparent;
+    background: #F2EFE5;
     border: none;
     outline: none;
-    border: 1px solid rgb(180, 180, 184);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 40px;
     font-size: 16px;
     color: #000000;
     padding: 20px 45px 20px 20px;
 }
 .input-box input::placeholder{
-    color: #333;
+    color: #000000;
 }
 .inputbox input::placeholder{
-    color: #333;
+    color: #000000;
 }
 .input-box i{
     position: absolute;
@@ -152,28 +127,6 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
-}
-.wrapper .remember-forgot{
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-}
-.remember-forgot label input{
-    accent-color: #fff;
-    margin-right: 3px;
-    
-}
-.remember-forgot label {
-    color: #333;
-    text-decoration: none;
-}
-.remember-forgot a {
-    color: #333;
-    text-decoration: none; 
-}
-.remember-forgot a:hover{
-    text-decoration: underline;
 }
 .wrapper .btn {
     width: 100%;
@@ -190,90 +143,79 @@
 }
 .wrapper .btn:hover{
     background-color: #8CB9BD;
-}
-.wrapper .register-link{
-    font-size: 14.5px;
-    text-align: center;
-    margin: 20px 0 15px;
-}
-.register-link p  {
-    color: #333;
-    text-decoration: none;
-    font-weight: 600;
-    margin: 20px 0 15px;
-}
-.register-link a {
-    color: #333;
-    text-decoration: none;
-    font-weight: 600;
-    margin: 20px 0 15px;
-}
-.register-link a:hover{
-    text-decoration: underline;
+    transition: background-color 1s ease-out;
 }
 /*Customers*/   
 
-.container {
-    width: 420px;
-    background: #F2EFE5;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #fff;
-    border-radius: 10px;
-    padding: 30px 40px;
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
 }
-.container h2{
-    font-size: 40px;
+.logo {
     text-align: center;
-    color: #333;
+    font-size: 3em;
 }
-.container .form-group{
-    position: relative;
-    width: 100%;
-    height: 50px;
-    margin: 30px 0;
-    color: #333;
-}
-.container .form-group label{
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-}
-.container .form-group input{
+.content .contac-wrapper{
     width: 100%;
     height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    backdrop-filter: blur(20px);
     border: 1px solid rgb(180, 180, 184);
     border-radius: 40px;
-    font-size: 16px;
-    color: #000000;
-    padding: 20px 45px 20px 20px;
+    outline: none;
+
 }
-.container .form-group input::placeholder{
-    color: #333;
+.contac-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-.container .btn{
+.contac-form form .block{
+    grid-column: 1/3;
+}
+.contac-form form p{
+    margin: 0;
+    padding: 1em;
+}
+
+.contac-form form button,
+.contac-form form input,
+.contac-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(202, 45, 45, 0.2);
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    background: #F2EFE5;
+    border-bottom: 1px solid #333;
+    outline: none;
+}
+.contac-form form label span{
+    color: #d63031;
+}
+.contac-form form button{
     width: 100%;
     height: 45px;
-    margin-top: 5%;
+    padding: 1em;
     border: none;
     outline: none;
-    background: #F2EFE5;
     border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(192, 30, 30, 0.1);
     cursor: pointer;
+    text-transform: uppercase;
     font-size: 16px;
-    color: #333;
+    background-color: #F2EFE5;
+    color: #000000;
     font-weight: 600;
     transition: .3s;
 }
-.container .btn:hover{
+.contac-form form button:hover{
     background-color: #8CB9BD;
+    transition: background-color 1s ease-out;
 }
-
 
 @media screen and (max-width:980px){
     nav{
